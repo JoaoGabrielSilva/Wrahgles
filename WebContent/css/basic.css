@@ -1,0 +1,175 @@
+
+/****** MODAL ******/
+
+#basic-modal-content, #basic-modal-content-denuncia, #basic-modal-content-foto, #basic-modal-content-contato, #basic-modal-content-amizade, #basic-modal-content-cadastro-local, #basic-modal-content-index, #basic-modal-content-convite, #basic-modal-content-cadastro-user, #basic-modal-content-contato-Wrahgles {
+	display:none;
+}
+/* Overlay */
+#simplemodal-overlay {
+	background-color:#000; 
+	cursor:default;
+}
+/* Container */
+#simplemodal-container {
+	top:200px !important; 
+	height:auto !important; 
+	width:410px !important; 
+	color:#BBB; 
+	background-color:#FFFFFF; 
+	border:10px solid #444444; 
+	padding:0 0 10px 0;
+}
+#simplemodal-container .simplemodal-data {
+	padding:0;
+}
+#simplemodal-container a {
+	color:#DDD;
+}
+#simplemodal-container a.modalCloseImg {
+	background:url(../img/x.png) no-repeat; 
+	width:25px; 
+	height:29px; 
+	display:inline; 
+	z-index:3200; 
+	position:absolute; 
+	top:-15px; 
+	right:-16px; 
+	cursor:pointer;
+}
+#simplemodal-container h3 {
+	color:#84B8D9;
+}
+
+/**** BOX MODAL ****/
+#modal-comentario, #modal-denuncia, #modal-foto, #modal-contato, #modal-amizade, #modal-cadastro-local, #modal-index, #modal-convite, #modal-cadastro-user, #modal-contato-Wrahgles {
+	margin:auto;
+	width:410px;
+}
+#modal-title {
+	width:100%;
+	background-color:#555555;
+}
+#modal-title h3 {
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#EFEFEF;
+	padding:5px 0 5px 5px;
+}
+#modal-comentario .desc-modal-comentario, #modal-denuncia .desc-modal-denuncia, #modal-foto .desc-modal-foto, #modal-contato .desc-modal-contato, #modal-amizade .desc-modal-amizade, #modal-cadastro-local .desc-modal-cadastro-local, #modal-index .desc-modal-index, #modal-convite .desc-modal-convite, #modal-cadastro-user .desc-modal-cadastro-user, #modal-contato-Wrahgles .desc-modal-contato-Wrahgles {
+	margin:0 !important;
+	padding:5px 5px 5px 5px;		
+	border:1px solid #EFEFEF;
+}
+#modal-comentario .desc-modal-comentario p, #modal-denuncia .desc-modal-denuncia p, #modal-foto .desc-modal-foto p, #modal-contato .desc-modal-contato p, #modal-amizade .desc-modal-amizade p, #modal-cadastro-local .desc-modal-cadastro-local p, #modal-index .desc-modal-index p, #modal-convite .desc-modal-convite p, #modal-cadastro-user .desc-modal-cadastro-user p, #modal-contato-Wrahgles .desc-modal-contato-Wrahgles p {
+	margin:0;
+	padding:0;
+}
+#modal-comentario-form, #modal-denuncia-form, #modal-foto-form, #modal-contato-form, #modal-cadastro-local-form, #modal-index-form {
+	float:left;
+	width:405px;
+	padding:10px 0 0 0;
+	border:1px solid #FFFFFF;
+	background-color:#FFFFFF;
+}
+#modal-contato-form .nome, #modal-contato-form .email {
+	width:250px;	
+	padding:5px;
+	margin-left:3px;
+}
+#modal-comentario-form #contador, #modal-denuncia-form #contador, #modal-contato-form #contador {
+	margin:4px 0 0 3px !important;
+	padding:3px;
+	font-size:12px;
+	font-weight:bold;
+	float:left;
+}
+#modal-comentario-form p, #modal-denuncia-form p, #modal-foto-form p, #modal-contato-form p, #modal-cadastro-local-form p {
+	padding-left:3px;
+	padding-bottom:0;
+	margin:10px 0 5px 0;
+}
+#modal-foto-form p strong {
+	color:#475D62;		
+}
+#modal-foto-form {
+	margin:0 0 5px 0 !important;	
+}
+#modal-foto-form form {
+	padding-left:3px;	
+}
+#modal-comentario-form img {
+	display:block;	
+	margin:0;
+	padding-left:3px;	
+}
+#modal-comentario-form textarea, #modal-denuncia-form textarea, #modal-contato-form textarea {
+	float:right;
+	width:390px;
+	height:120px;
+	margin:0;
+	padding:5px;
+	border:1px solid #999999;	
+}
+.desc-modal-comentario, .desc-modal-denuncia, .desc-modal-foto, .desc-modal-contato, .desc-modal-amizade, .desc-modal-cadastro-local, .desc-modal-index, .desc-modal-convite, .desc-modal-cadastro-user, .desc-modal-contato-Wrahgles {
+	background-color:#EFEFEF;	
+}
+#box-submit-comentario, #box-submit-denuncia, #box-submit-foto, #box-submit-contato {
+	float:left;
+	width:405px;	
+}
+.MultiFile-remove {
+	color:#000000 !important;
+	font-size:13px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+#box-modal-lista-amizade {
+	float:left;
+	width:410px;
+	height:300px;
+	margin:10px 0 0 0;
+	overflow:auto;
+}
+#box-modal-lista-amizade .box-list-amizade {
+	float:left;
+	width:390px;
+	height:65px;
+	padding:4px 0 0 0;
+	border-top:1px solid #CCCCCC;	
+}
+#box-modal-lista-amizade .box-list-amizade a {
+	color:#475D62;	
+}
+#box-modal-lista-amizade .box-list-amizade .box-list-amizade-info {
+	float:left;
+	width:180px;
+	height:auto;
+	padding:5px;
+}
+#box-modal-lista-amizade .box-list-amizade .box-list-amizade-info img {
+	float:left;	
+	padding:0 10px 0 0;
+}
+#box-modal-lista-amizade .box-list-amizade .box-list-amizade-info span a {
+	font-size:13px;
+	color:#475D62;
+	font-weight:bold;	
+}
+#box-modal-lista-amizade .box-list-amizade .box-list-amizade-info span a:hover {
+	text-decoration:underline;	
+}
+.box-list-action {
+	float:right;
+	width:125px;
+	padding:2px 0 0 0;
+}
+.box-list-action a {
+	padding:0 0 0 10px;	
+}
+.box-list-action a:hover {
+	text-decoration:underline;	
+}
+/**** / BOX MODAL ****/
+
+/****** / MODAL ******/

@@ -1,0 +1,76 @@
+
+
+/*------------------------------------------			TIPOS		--------------------------------------------*/
+.lic_1 { font-size:12px; color:#0066CC; font-weight:bold;}
+.lic_2 { font-size:12px; color:#749D00; font-weight:bold;}
+.fon_v { font-family:Verdana, Arial, Helvetica, sans-serif;}
+.a13 { font-family:Arial, Helvetica, sans-serif; font-size:13px;}
+.a14 { font-family:Arial, Helvetica, sans-serif; font-size:14px;}
+.b {font-weight:bold;}
+.v {font-family:Verdana, Arial, Helvetica, sans-serif;}
+.x9 {font-size:9px; color:#666666;}
+
+.top {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:29px; font-weight:bold; color:#999999;}
+
+.x10 {font-size:10px;}
+.x12 {font-size:12px;}
+.x14 {font-size:14px;}
+.x16 {font-size:16px;}
+.x18 {font-size:18px;}
+.x22 {font-size:22px;}
+.ita {font-style:italic;}
+.tip {font-family:Verdana, Arial, Helvetica, sans-serif; color:#999999;font-size:10px; font-weight:normal;}
+.list_data, .peq, .peq a, .list_data a  { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; font-weight:normal}
+.list_data, .c999 {color:#999999; }
+.new {color:#FF9900; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:9px; text-transform:capitalize; font-weight:normal;}
+
+.tit { font-size:18px; color:#434343; font-weight:bold;}
+
+
+/*------------------------------------------		//	TIPOS		--------------------------------------------*/
+
+/*------------------------------------------			AUX		--------------------------------------------*/
+.right {float:right;}
+.clr { clear:both;}
+.left {float:left;}
+.center {text-align:center; margin-left:auto; margin-right:auto;}
+
+.img_dir { float:right; margin-left:10px; margin-bottom:10px;}
+.img_esq {float:left; margin-right:10px; margin-bottom:10px;}
+.centro {text-align:center; width:590px; margin:15px 0 15px 0;}
+.some {left:-5000px; top:-5000px; position:absolute; display:none; visibility:hidden;}
+
+/*------------------------------------------		// AUX		--------------------------------------------*/ 
+
+
+
+/*------------------------------------------		 WALLPAPERS		--------------------------------------------*/ 
+
+.nota_on,.nota_off {background-position:left;width:34px; height:30px;  cursor:pointer;}
+.nota_on {background-image:url(../images/on-med.png); }
+.nota_off {background-image:url(../images/off-med.png);}
+
+#bxkgal, #bxkgal1 { width:204px; height:80px; padding:10px 47px 10px 47px; border:1px solid #DEDEDE; margin-top:5px;} 
+#bxkgal .stepcarousel, #bxkgal1 .stepcarousel { position: relative; overflow: hidden; width: 206px; height: 80px; }
+#bxkgal .stepcarousel .belt, #bxkgal1 .stepcarousel .belt {position: absolute;left: 0;top: 0;}
+#bxkgal .stepcarousel .panel, #bxkgal1 .stepcarousel .panel {float: left;overflow: hidden;width: 90px; margin-right:20px; text-align:center;}
+#bxkgal .stepcarousel .belt img, #bxkgal1 .stepcarousel .belt img {margin-top:5px; width:90px;}
+
+
+#comentwall {padding-left:55px; position:relative; min-height:50px; padding-bottom:10px; border-bottom:1px dotted #DEDEDE; margin-bottom:15px;}
+#comentwall img.a { position:absolute; left:0px; top:0px; border:1px solid #000000;}
+#comentwall .d { font-weight:normal; color:#999;}
+.wfav {padding-left:15px; position:relative; top:-25px;}
+
+#wall {width:650px; float:left; clear:both; min-height:1300px;}
+#wall .por { width:205px; float:left; text-align:left; height:50px; padding-right:20px; padding-top:15px; padding-left:55px; position:relative; line-height:18px; overflow:hidden;} 
+#wall .av{border:1px solid #000000; left:0px; position:absolute; top:10px;}
+#wall .views {float:left; border-right:1px solid #DEDEDE; border-left:1px solid #DEDEDE; text-align:center; width:150px;height:50px; padding-top:15px;font-size:14px;}
+#wall .nota { float:left; border-right:1px solid #DEDEDE;  text-align:center; width:215px;height:50px;padding-top:15px;}
+
+
+.wallultimas {width: 300px; margin-bottom: 40px;}
+.wallultimas div {float:left; margin:0 10px 10px 0; width:90px; height:75px; overflow:hidden; text-align:center; padding:0;} 
+.wallultimas img { margin-left:-5px; height:75px; }
+.wallultimas div.nb, .wallultimas div .nb, .nb { margin-right:0px;}
+/*------------------------------------------		// WALLPAPERS		--------------------------------------------*/ 

@@ -1,0 +1,155 @@
+h1{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	
+}
+	
+h2{
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #191970;
+	font-size: 16px;
+	}
+hr {
+	border: none;
+	border-top: 1px solid; #CCCCCC;
+	height: 1px;
+	margin-bottom: 25px;
+}
+img, a {
+	border: none;
+	text-decoration: underline;
+}
+
+a:link {color:#17a; text-decoration: none;}
+a:VISITED {color: #17a; text-decoration: none;}
+a:HOVER {color:#0099ea; text-decoration: underline;}
+a:ACTIVE {color:#17a;text-decoration: none;	}
+
+#styleone{position:relative; display: block;height: 21px;font-size: 11px;font-weight: bold;background: transparent url(../images/bgOff.gif) repeat-x top left;font-family: Arial, Verdana, helvetica,sans-serif;border-bottom: 1px solid #d9d9d9;}
+#styleone ul{margin: 0; padding: 0; list-style-type: none;width: auto;}
+#styleone ul li{display: block;float: left;margin: 0 2px 0 0;}
+#styleone ul li a{display: block;float: left;color: #034895;text-decoration: none;padding: 3px 20px 0 20px; height: 18px;}
+#styleone ul li a:hover, #styleone ul li a.current{color:#034895;background: transparent url(../images/bgOn.gif) repeat-x top left;}
+
+#autentica{position:relative; display: block;font-size: 11px;font-weight: bold;font-family: Arial,Verdana,Helvetica,sans-serif;border-bottom: 1px solid #d9d9d9;}
+#autentica ul {margin: 0;padding: 0;list-style-type: none;width: auto;}
+#autentica ul li{display: block;float: right;margin: 0 1px 0 0;}
+#autentica ul li a{
+	display: block;
+	float: right;
+	color: #034595;
+	text-decoration: none;
+	padding: 3px 20px 0 20px;
+	height: 18px;
+}
+#autentica ul li a:hover, #autentica ul li a.current{color:#034595; background: transparent url(/images/bgOn.gif) repeat-x top left; }
+
+img.alignleft {
+	float: left;
+	padding: 0px 20px 0px 0px;
+}
+#content {
+	float: left;
+	width: 676px;
+	padding: 0px 0px 0px 0px;
+}
+.post {
+	padding-top: 20px;
+	border-bottom: 1px solid; #EAEAEA;
+ }
+.post .title{
+	clear: both;
+	letter-spacing: -1px;
+	padding: 10px 10pc;
+	font-size: 36px;
+}
+.post .title a {
+	color: #0A7A98;
+	border:none;
+}
+.post .meta{
+	float;right;
+	height: 48px;
+	text-align: left;
+	margin-bottom: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	
+}
+
+.post .meta .date{
+	display: inline-block;
+	width: 156px;
+	height: 42px;
+	padding: 6px 0px 0px 0px;
+	background: url(images/img05.jpg) no-repeat left top;
+	text-align: center;
+	color: #FFEEE7;
+}
+
+.post .meta .posted {
+	padding: 0px 10px 0px 0px;
+	text-transform: lowercase;
+	font-family: Georgia,"Times New Roman", Times, serif;
+	font-size: 18px;
+	font-style: italic;
+	color: #415B62;
+}
+.post .meta a {}
+
+.post .entry {
+	padding: 0 45px 20px 40px;
+	padding-bottom: 20px;
+	text-align: justify;
+
+}
+.links {
+	padding-top: 20px;
+	font-size: 12px;
+	font-weight: bold; 
+}
+
+/*  SPAN STYLES */
+.campos {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #F00;
+}
+
+.mensagem {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.size {
+	font-family: Tahoma,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+}
+.label {
+	font-family: Tahoma,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #6E7073;
+	text-decoration: none;
+}
+.exemplo {
+	font-family: Tahoma,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #9C9C9C;
+	text-decoration: none;
+}
+.ast {
+	font-family: Tahoma,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	color: #F00;
+}

@@ -1,0 +1,308 @@
+/*
+	Layout desenvolvido por Thiago Lima de Aguiar --
+	Data início: 16 de Abril de 2010 --
+	Horário: 13:55 pm --
+*/
+
+/******************** HEADER **********************/
+
+#loucaliza-page #header { 
+	width:99.9%;
+	margin:auto;
+	padding:0 0 0 0;
+}
+#loucaliza-page #header #search {
+	margin:auto;
+	width:1000px;
+	height:130px;	
+}
+#loucaliza-page #header #search #search-info {
+	width:100%;
+	height:30px;	
+}
+#loucaliza-page #header #search #search-info #social-rede {
+	float:left;
+	width:170px;
+	height:25px;	
+	padding:3px 0 0 2px;
+}
+#loucaliza-page #header #search #search-info #adm {
+	float:right;
+	width:auto;
+	height:23px;	
+	padding:3px 0 0 0;
+	margin:3px 0 0 0;
+}
+#loucaliza-page #header #search #search-info #adm #adm-email {
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#000000;		
+	padding:1px 10px 0 10px;	
+	border:none;
+}
+#loucaliza-page #header #search #search-info #adm a span {
+	float:right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#8d2d14;			
+	padding:1px 6px 0 10px;	
+	border-left:1px solid #C03;
+}
+#loucaliza-page #header #search #search-info #adm a span:hover {
+	text-decoration:underline;	
+}
+#loucaliza-page #header #search #search-info #social-rede span {
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#8d2d14;		
+	padding:3px 5px 0 0;
+}
+#loucaliza-page #header #search #search-info #social-rede a {
+	float:left;	
+	width:23px;
+	height:18px;
+	text-align:center;
+	padding:5px 0 0 0;
+}
+#loucaliza-page #header #search #search-location {
+	width:100%;
+	float:left;
+	padding:5px 0 5px 0;
+}
+#loucaliza-page #header #search #search-location #logo {
+	float:left;
+	width:270px;
+	height:85px;
+	border:1px solid #FFFFFF;
+	background:url(img/logotipo.png) 0 0 no-repeat;	
+} 
+#loucaliza-page #header #search #search-location #search-cat {
+	float:left;
+	width:300px;
+	height:auto;	
+	margin:0 0 0 0;
+	border:1px solid #FFFFFF;
+}
+#loucaliza-page #header #search #search-location div .tit {
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:17px;
+	color:#999999;	
+	padding:2px 0 0 0;
+}
+#loucaliza-page #header #search #search-location div .subtit {
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#888888;
+	padding:2px 0 0 1px;	
+}
+#loucaliza-page #header #search #search-location div .subtit span {
+	color:#732613;
+	font-weight:bolder;	
+}
+#loucaliza-page #header #search #search-location #search-cat input {	
+	float:left;
+	width:270px;
+	height:auto;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#888888;		
+	font-style:italic;
+	border:1px solid #DFDFDF;
+	padding:5px 5px 5px 5px;	
+}
+#loucaliza-page #header #search #search-location #search-end {
+	float:left;
+	width:290px;
+	height:auto;	
+	margin:0 0 0 0;
+	border:1px solid #FFFFFF;
+}
+#loucaliza-page #header #search #search-location #search-end input {	
+	float:left;
+	width:270px;
+	height:auto;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#888888;		
+	font-style:italic;
+	border:1px solid #DFDFDF;
+	padding:5px 5px 5px 5px;	
+}
+#loucaliza-page #header #search #search-location #btn-send {
+	float:left;
+	width:118px;
+	height:40px;	
+	padding:27px 0 0 10px;
+	border:1px solid #FFFFFF;
+}
+#loucaliza-page #header #search #search-location #btn-send input {
+	width:111px;
+	height:34px;	
+	background:url(img/search-new.gif) 0 0 transparent no-repeat;
+	cursor:pointer;
+	padding:0;
+	margin:0;
+	border:0 none;	
+}
+#loucaliza-page #header #menu { 
+	width:100%;
+	height:33px;
+	border-top:1px solid #000000;
+	border-bottom:2px solid #000000;
+	background:url(img/bg-menu.gif) 0 0 transparent repeat-y;
+}
+#loucaliza-page #header #menu #menu-list {
+	margin:auto; 
+	width:1000px;	
+	height:27px;
+	padding:4px 0 0 0;
+}
+#loucaliza-page #header #menu #menu-list a span {
+	float:left;
+	width:auto;
+	height:20px;
+	margin:0 1px 0 0;
+	padding:7px 10px 0 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#DFDFDF;
+	background-color:#aa381c;
+	border:1px solid #91311a;	
+}
+#loucaliza-page #header #menu #menu-list a span:hover {
+	background-color:#91311a;
+	border:1px solid #91311a;
+}
+#loucaliza-page #header #submenu { 
+	width:100%;
+	height:24px;
+	background:url(img/bg-submenu.gif) 0 -60px transparent repeat-y;
+}
+#loucaliza-page #header #submenu #submenu-list {
+	margin:auto; 
+	width:1000px;	
+	height:22px;
+	padding:4px 0 0 0;
+}
+#loucaliza-page #header #submenu #submenu-list span {
+	float:left;
+	width:auto;
+	padding:0 10px 0 3px;		
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bolder;
+	color:#CFCFCF;
+}
+#loucaliza-page #header #submenu #submenu-list a span {
+	float:left;
+	width:auto;
+	padding:0 7px 0 7px;		
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#DFDFDF;	
+}
+#loucaliza-page #header #submenu #submenu-list a span:hover {
+	text-decoration:underline;	
+}
+/******************** / HEADER **********************/
+
+
+/******************** CONTENT **********************/
+
+
+/******************** HOME **********************/
+
+#loucaliza-page .col-dir-home {
+	float:left;
+	width:300px;
+	height:592px;
+	overflow:auto;
+	margin:4px 0 0 0;
+	padding:0 8px 0 0;
+	border-right:1px solid #EFEFEF;
+	border-bottom:1px solid #FFFFFF;
+	border-top:1px solid #EFEFEF;
+}
+#loucaliza-page .col-dir-home h3 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#555555;	
+}
+#loucaliza-page .col-dir-home span {
+	font-style:italic;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#555555;	
+}
+#loucaliza-page .col-dir-home .list-location {
+	float:left;
+	width:285px;
+	padding:5px 0 5px 0;
+	border-bottom:1px solid #FBFBFB;		
+}
+#loucaliza-page .col-dir-home .list-location .ico {
+	float:left;
+	width:20px;
+	border:1px solid #FFFFFF;
+	padding:0 10px 0 0;	
+}
+#loucaliza-page .col-dir-home .list-location .list-info-location {
+	float:left;
+	width:250px;
+	border:1px solid #FFFFFF;
+}
+#loucaliza-page .col-dir-home .list-location .list-info-location span {
+	display:block;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#loucaliza-page .col-dir-home .list-location .list-info-location span strong a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:20px;
+	font-style:normal;
+	color:#777777;
+}
+#loucaliza-page .col-dir-home .list-location .list-info-location span a em {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:20px;
+}		
+#loucaliza-page .col-dir-home .list-location .list-info-location span a:hover {
+	text-decoration:underline;	
+}		
+#loucaliza-page .col-dir-home .list-location .list-info-location .list-location-adress {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px !important;
+	font-style:normal !important;	
+}
+#loucaliza-page .col-dir-home .list-location .list-info-location span a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:20px;
+	color:#8D2D14;
+	font-style:normal;
+}		
+#loucaliza-page #col-esq-home {
+	float:left;
+	width:670px;
+	height:580px;
+	padding:13px 9px 10px 11px;
+	background:url(img/bg-map-home.gif) transparent 0 0 no-repeat;
+}
+#loucaliza-page #col-esq-home #map {
+	margin:auto;
+	width:669px;
+	height:575px;
+}
+
+/******************** / HOME **********************/
+
+
+/******************** / CONTENT **********************/

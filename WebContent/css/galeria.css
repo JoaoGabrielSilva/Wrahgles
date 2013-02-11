@@ -1,0 +1,92 @@
+/*css padrão */
+
+.galleria {
+	float:left;
+	width:655px;
+	list-style:none;
+}
+.galleria li {
+	float:left;
+	border:1px solid red;
+	display:block;
+	width:80px;
+	height:80px;
+	overflow:hidden;
+	float:left;
+	margin:0 10px 10px 0; 
+	list-style: none;
+}
+.galleria li div img {
+	cursor:pointer;text-align:center;
+}
+.galleria li img.thumb {
+	cursor:pointer;
+}
+span.caption {
+	float:left;
+	color:#FFFFFF; 
+	width:685px; 
+	background-color:#475D62; 	
+	margin:10px 0 0 0;
+	padding: 2px 0 2px 0;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif !important;	
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+}
+#gallery-image-loucaliza {
+	float:left;
+	width:690px;
+	margin:10px 0 0 0;
+	padding:2px 0 2px 0;
+}
+.gallery_demo {
+	float:left; 
+	width:665px;
+	margin:0 0 10px 0;
+	padding:15px 0 15px 25px;
+	background-color:#FBFCFC;
+	border-top:1px solid #EFEFEF;
+	border-bottom:1px solid #EFEFEF;
+}
+.gallery_demo li {
+	width:70px;
+	height:55px;
+	border:2px double #CCCCCC;
+	margin:4px 7px 4px 0; 
+	list-style:none !important;
+}
+#main_image {
+	float:left;
+	width:655px;
+	height:auto !important;
+	margin:10px 0 0 0;		
+}
+#main_image img {
+	max-width:655px;
+	margin-bottom:10px;
+	text-align:center;
+}
+.nav {
+	float:left;
+	width:655px;
+	padding:10px;
+	margin:0;
+	text-align:center;	
+}
+.nav a {
+	color:#475D62;
+	font-weight:bolder;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	text-decoration:none;
+	margin:0 20px 0 20px;	
+}
+.nav a:hover {
+	text-decoration:underline;	
+}
+.galleria_wrapper {
+	width:685px;
+	margin:auto;	
+	text-align:center;
+}
